@@ -1,0 +1,21 @@
+{
+    "name": "code33",
+    "displayName": "Code33",
+    "description": "Code33 Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Code33",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Code33-color-theme.json"
+            }
+        ]
+    }
+}
