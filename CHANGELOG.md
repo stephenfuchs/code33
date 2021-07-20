@@ -12,3 +12,9 @@ All notable changes to the "code33" extension will be documented in this file.
 
 - Updated panel.background & terminal.background to darker shade of gray
 - Added scope coloring for inline styles to match same green color as classes
+
+## [1.0.2] - 2021-07-20
+
+### Fixed
+
+- Updated panel.background & terminal.background colors not properly applied
