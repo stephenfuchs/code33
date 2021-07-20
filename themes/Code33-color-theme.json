@@ -1419,7 +1419,7 @@
     },
     {
       "scope": [
-        "source.css"
+        "source.css",
         "string.quoted.double.html",
         "meta.embedded.line.css",
         "meta.attribute.style.html",
