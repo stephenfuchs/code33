@@ -238,7 +238,7 @@
     "panelTitle.activeForeground": "#9E8CFC",
     "panelTitle.inactiveForeground": "#a0a0a0",
     "statusBar.background": "#232323",
-    "statusBar.foreground": "#d7cff9",
+    "statusBar.foreground": "#aa99ec",
     "statusBar.border": "#1c1c1c",
     "statusBar.debuggingBackground": "#bd4b00",
     "statusBar.debuggingForeground": "#ededed",
@@ -526,7 +526,7 @@
     {
       "name": "Functions",
       "scope": ["entity.name.function", "entity.name.function.templated"],
-      "settings": { "foreground": "#63c174" }
+      "settings": { "foreground": "#97cf9c" }
     },
     {
       "name": "Functions",
@@ -555,7 +555,7 @@
     {
       "name": "Entity name",
       "scope": "entity.name",
-      "settings": { "foreground": "#63c174" }
+      "settings": { "foreground": "#97cf9c" }
     },
     {
       "name": "Class name",
@@ -583,7 +583,7 @@
     {
       "name": "Function name",
       "scope": "entity.name.function",
-      "settings": { "foreground": "#63c174" }
+      "settings": { "foreground": "#97cf9c" }
     },
     {
       "name": "Tag name",
@@ -626,7 +626,7 @@
         "entity.other.attribute-name.css",
         "entity.other.animation-name.css"
       ],
-      "settings": { "foreground": "#63c174" }
+      "settings": { "foreground": "#97cf9c" }
     },
     {
       "name": "CSS id",
@@ -648,7 +648,7 @@
     {
       "name": "Function names / calls",
       "scope": ["entity.name.function", "support.function"],
-      "settings": { "foreground": "#63c174" }
+      "settings": { "foreground": "#97cf9c" }
     },
     {
       "name": "git status commit hex",
@@ -796,7 +796,7 @@
     {
       "name": "Link",
       "scope": "markup.underline.link",
-      "settings": { "foreground": "#63c174" }
+      "settings": { "foreground": "#97cf9c" }
     },
     {
       "name": "Diff inserted",
@@ -804,7 +804,7 @@
         "markup.inserted",
         "markup.inserted punctuation.definition.inserted"
       ],
-      "settings": { "foreground": "#63c174" }
+      "settings": { "foreground": "#97cf9c" }
     },
     {
       "name": "Diff deleted",
@@ -858,7 +858,7 @@
         "meta.function-call.generic.python",
         "support.function.builtin.python"
       ],
-      "settings": { "foreground": "#63c174" }
+      "settings": { "foreground": "#97cf9c" }
     },
     {
       "name": "Function arguments (vs)",
@@ -869,7 +869,7 @@
       "name": "Constructor (new MyClass())",
       "scope": "meta.instance.constructor",
       "settings": {
-        "foreground": "#63c174"
+        "foreground": "#97cf9c"
       }
     },
     {
@@ -879,7 +879,7 @@
         "meta.attribute.class.html string"
       ],
       "settings": {
-        "foreground": "#63c174"
+        "foreground": "#97cf9c"
       }
     },
     {
@@ -1090,7 +1090,7 @@
       "name": "region green color",
       "scope": "region.greenish",
       "settings": {
-        "foreground": "#63c174"
+        "foreground": "#97cf9c"
       }
     },
     {
@@ -1316,7 +1316,7 @@
       "name": "refs (Restructured text)",
       "scope": ["string.other.ref", "string.other.restructuredtext.ref"],
       "settings": {
-        "foreground": "#63c174"
+        "foreground": "#97cf9c"
       }
     },
     {
@@ -1349,7 +1349,7 @@
     {
       "name": "Function name",
       "scope": "support.function",
-      "settings": { "foreground": "#63c174" }
+      "settings": { "foreground": "#97cf9c" }
     },
     {
       "name": "function brackets, comma's",
@@ -1472,7 +1472,7 @@
       "name": "Function and method names should be scoped using the following, but only when they are being invoked. When defined, they should use entity.name.function.",
       "scope": "variable.function",
       "settings": {
-        "foreground": "#63c174"
+        "foreground": "#97cf9c"
       }
     },
     {
@@ -1493,7 +1493,7 @@
     {
       "name": "jinja2 variable block",
       "scope": "source.jinja2 variable.other.jinja2.block",
-      "settings": { "foreground": "#63c174" }
+      "settings": { "foreground": "#97cf9c" }
     },
     {
       "name": "jinja2 variable",
@@ -1501,15 +1501,9 @@
       "settings": { "foreground": "#fa934e" }
     },
     {
-      "name": "CSS style",
-      "scope": [
-        "source.css",
-        "string.quoted.double.html",
-        "meta.embedded.line.css",
-        "meta.attribute.style.html",
-        "meta.tag.inline.span.start.htm"
-      ],
-      "settings": { "foreground": "#63c174" }
+      "name": "Inline style attributes",
+      "scope": ["source.css", "meta.attribute.style.html"],
+      "settings": { "foreground": "#97cf9c" }
     }
   ]
 }

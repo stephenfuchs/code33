@@ -18,3 +18,14 @@ All notable changes to the "code33" extension will be documented in this file.
 ### Fixed
 
 - Updated panel.background & terminal.background colors not properly applied
+
+## [1.0.3] - 2021-07-20
+
+### Changed
+
+- Updated foreground color of status bar text
+- Desaturated green token colors
+
+### Fixed
+
+- HTML inline style color change breaking href coloring
