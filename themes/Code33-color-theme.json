@@ -232,7 +232,7 @@
     "editorOverviewRuler.errorForeground": "#f76190",
     "editorOverviewRuler.warningForeground": "#fa934e",
     "editorOverviewRuler.infoForeground": "#8ae8ff",
-    "panel.background": "#3e3e3e",
+    "panel.background": "#1c1c1c",
     "panel.border": "#161616",
     "panelTitle.activeBorder": "#9E8CFC",
     "panelTitle.activeForeground": "#9E8CFC",
@@ -275,7 +275,7 @@
     "quickInputList.focusBackground": "#2e2e2e",
     "quickInputList.focusForeground": "#aa99ec",
     "keybindingLabel.background": "#505050",
-    "terminal.background": "#3e3e3e",
+    "terminal.background": "#1c1c1c",
     "terminal.foreground": "#ededed",
     "terminal.ansiBlack": "#3e3e3e",
     "terminal.ansiBlue": "#0078a1",
@@ -1416,6 +1416,16 @@
     {
       "scope": "source.jinja2 variable.other.jinja2",
       "settings": { "name": "jinja2 variable", "foreground": "#fa934e" }
+    },
+    {
+      "scope": [
+        "source.css"
+        "string.quoted.double.html",
+        "meta.embedded.line.css",
+        "meta.attribute.style.html",
+        "meta.tag.inline.span.start.htm"
+      ],
+      "settings": { "name": "CSS style", "foreground": "#63c174" }
     }
   ]
 }
